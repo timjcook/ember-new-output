@@ -6,7 +6,6 @@
   "repository": "",
   "license": "MIT",
   "author": "",
-  "main": "ember-cli-build.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
