@@ -420,7 +420,7 @@
     "@types/jquery" "*"
     "@types/rsvp" "*"
 
-"@types/ember__application@*":
+"@types/ember__application@*", "@types/ember__application@^3.0.4":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@types/ember__application/-/ember__application-3.0.4.tgz#2b92d68949c6d37eca35ceff2050101970062ef4"
 
@@ -434,19 +434,19 @@
   dependencies:
     "@types/jquery" "*"
 
-"@types/ember__controller@*":
+"@types/ember__controller@*", "@types/ember__controller@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/ember__controller/-/ember__controller-3.0.3.tgz#622440d41ce0ae46f2610ed22670be9088cc9c2b"
 
-"@types/ember__debug@*":
+"@types/ember__debug@*", "@types/ember__debug@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/ember__debug/-/ember__debug-3.0.3.tgz#b8c3481e2305b636dca4524331efd4112071902b"
 
-"@types/ember__engine@*":
+"@types/ember__engine@*", "@types/ember__engine@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/ember__engine/-/ember__engine-3.0.3.tgz#440e656f825f73240419367ee7637ca94b4a1780"
 
-"@types/ember__error@*":
+"@types/ember__error@*", "@types/ember__error@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/ember__error/-/ember__error-3.0.1.tgz#1e915599d8d72cc4cf35473ee8a22d9cab036824"
 
@@ -456,15 +456,15 @@
   dependencies:
     "@types/rsvp" "*"
 
-"@types/ember__polyfills@*":
+"@types/ember__polyfills@*", "@types/ember__polyfills@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@types/ember__polyfills/-/ember__polyfills-3.0.2.tgz#ccd9f510a4895abf92435c968f9e582e86a81b25"
 
-"@types/ember__routing@*":
+"@types/ember__routing@*", "@types/ember__routing@^3.0.5":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@types/ember__routing/-/ember__routing-3.0.5.tgz#9b193178a1cc29560992c57b04fd7d83a70f831d"
 
-"@types/ember__runloop@*":
+"@types/ember__runloop@*", "@types/ember__runloop@^3.0.3":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/ember__runloop/-/ember__runloop-3.0.3.tgz#c23c9d4327ca811482422505a1f5bf1c48458f53"
 
@@ -472,7 +472,7 @@
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@types/ember__service/-/ember__service-3.0.2.tgz#8265c94a599c865f633361b0e3b1efbeef393d7d"
 
-"@types/ember__string@*":
+"@types/ember__string@*", "@types/ember__string@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@types/ember__string/-/ember__string-3.0.2.tgz#2ffdf09baab6a641c94c0149a8ff3670f793788d"
   dependencies:
@@ -486,7 +486,7 @@
     "@types/ember__error" "*"
     "@types/htmlbars-inline-precompile" "*"
 
-"@types/ember__test@*":
+"@types/ember__test@*", "@types/ember__test@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@types/ember__test/-/ember__test-3.0.2.tgz#9f97d4cda07cb47f2b51718467b3070669566d72"
 
@@ -494,7 +494,7 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/ember__utils/-/ember__utils-3.0.1.tgz#f08aa24920515400fec869cbf29df69c4773f6d0"
 
-"@types/estree@*":
+"@types/estree@*", "@types/estree@^0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
 
@@ -502,17 +502,21 @@
   version "0.0.38"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.38.tgz#c1be40aa933723c608820a99a373a16d215a1ca2"
 
-"@types/handlebars@*":
+"@types/handlebars@*", "@types/handlebars@^4.0.39":
   version "4.0.39"
   resolved "https://registry.yarnpkg.com/@types/handlebars/-/handlebars-4.0.39.tgz#961fb54db68030890942e6aeffe9f93a957807bd"
 
-"@types/htmlbars-inline-precompile@*":
+"@types/htmlbars-inline-precompile@*", "@types/htmlbars-inline-precompile@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/htmlbars-inline-precompile/-/htmlbars-inline-precompile-1.0.0.tgz#4c283da1a7e303b269de3c6aa953acc8d8736949"
 
-"@types/jquery@*":
+"@types/jquery@*", "@types/jquery@^3.3.10":
   version "3.3.10"
   resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.10.tgz#d0afaec7ee55f591992e74c607df5dc7cd9c76ab"
+
+"@types/node@^10.11.3":
+  version "10.11.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.11.3.tgz#c055536ac8a5e871701aa01914be5731539d01ee"
 
 "@types/node@^9.6.0":
   version "9.6.32"
