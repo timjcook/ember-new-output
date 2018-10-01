@@ -1,8 +1,6 @@
 /**
  * Catch-all for ember-data.
  */
-declare module 'ember-data' {
-  interface ModelRegistry {
-    [key: string]: any;
-  }
+declare interface ModelRegistry {
+  [key: string]: any;
 }
