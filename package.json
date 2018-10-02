@@ -20,6 +20,7 @@
   "devDependencies": {
     "@ember/jquery": "^0.5.2",
     "@ember/optional-features": "^0.6.3",
+    "@types/ember": "^3.0.23",
     "@types/express": "^4.16.0",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.1.0",
@@ -28,6 +29,7 @@
     "ember-cli-babel": "^6.16.0",
     "ember-cli-dependency-checker": "^3.0.0",
     "ember-cli-eslint": "^4.2.3",
+    "ember-cli-fastboot": "^2.0.0",
     "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^1.0.3",
     "ember-cli-inject-live-reload": "SparshithNR/ember-cli-inject-live-reload#test-refactor",
