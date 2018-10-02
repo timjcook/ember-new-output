@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'my-app',
+    modulePrefix: 'super-rentals',
     environment,
     rootURL: '/',
     locationType: 'auto',
@@ -44,7 +44,11 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    // use mirage in production too since the app will break
+    // if there is no API for Ember Data
+    ENV['ember-cli-mirage'] = {
+      enabled: true
+    }
   }
 
   return ENV;
