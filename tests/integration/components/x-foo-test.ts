@@ -1,19 +1,21 @@
-import { module, test } from 'qunit';
-import { setupRenderingTest } from 'ember-qunit';
+import { suite, test } from 'qunit-decorators';
+import { EmberRenderingTest } from 'ember-qunit-decorators/test-support';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
-module('Integration | Component | x-foo', function(hooks) {
-  setupRenderingTest(hooks);
-
-  test('it renders', async function(assert) {
+@suite('Integration | Component | x-foo')
+export class XFooComponentTest extends EmberRenderingTest {
+  
+  @test async 'it renders when used in {{inline-form}}'(assert: Assert) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
     await render(hbs`{{x-foo}}`);
 
-    assert.equal(this.element.textContent.trim(), '');
+    assert.equal(('' + this.element.textContent).trim(), '');
+  }
 
+  @test async 'it renders when used in {{#block-form}}  {{/block-form}}'(assert: Assert) {
     // Template block usage:
     await render(hbs`
       {{#x-foo}}
@@ -21,6 +23,6 @@ module('Integration | Component | x-foo', function(hooks) {
       {{/x-foo}}
     `);
 
-    assert.equal(this.element.textContent.trim(), 'template block text');
-  });
-});
+    assert.equal(('' + this.element.textContent).trim(), 'template block text');
+  }
+}
