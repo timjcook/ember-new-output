@@ -18,10 +18,18 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.2",
     "@ember-decorators/babel-transforms": "^2.1.2",
     "@ember/optional-features": "^0.7.0",
     "@glimmer/component": "^0.14.0-alpha.3",
+    "@types/ember": "^3.0.29",
+    "@types/ember-data": "^3.1.6",
+    "@types/ember-qunit": "^3.4.6",
+    "@types/ember-test-helpers": "^1.0.5",
+    "@types/ember-testing-helpers": "^0.0.3",
+    "@types/ember__test-helpers": "^0.7.8",
+    "@types/qunit": "^2.5.4",
+    "@types/rsvp": "^4.0.2",
+    "babel-eslint": "^8.0.2",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.2.20",
     "ember-cli": "github:ember-cli/ember-cli#29be08db0725bf1d07877702bc4b27a9428c4875",
@@ -34,6 +42,8 @@
     "ember-cli-inject-live-reload": "^2.0.1",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-template-lint": "^1.0.0-beta.1",
+    "ember-cli-typescript": "^2.0.0",
+    "ember-cli-typescript-blueprints": "^2.0.0",
     "ember-cli-uglify": "^2.1.0",
     "ember-data": "github:emberjs/data#722da7ce75597735f1769a98875fcadccb4b8749",
     "ember-export-application-global": "^2.0.0",
@@ -46,7 +56,8 @@
     "eslint-plugin-ember": "^6.0.1",
     "eslint-plugin-node": "^8.0.1",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.8.0"
+    "qunit-dom": "^0.8.0",
+    "typescript": "^3.3.3333"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
